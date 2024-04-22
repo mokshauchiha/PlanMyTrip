@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanMyTrip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylemyschedule.css">
+</head>
+<body>
+    <div class="Body">
+        <div class="leftpanel">
+            <div class="logo">
+                <img src="images/LogoBlue.png" alt="Logo">
+            <h3>TRAVELLING MADE EASY</h3>
+            </div>
+            <div class="contents">
+                <ul>
+                    <a href="index.html">
+                            <li>
+                            <img src="images/Dashboard.svg" alt="Dashboad">
+                            Dashboard 
+                        </li>
+                    </a>
+                    <a href="blogpost.html">
+                        <li>
+                            <img src="images/Heart.svg" alt="Dashboad">
+                            Blogs & Post 
+                        </li>
+                    </a>
+                    <a href="iteneraryPlanner.jsp">
+                        <li>
+                            <img src="images/Pencil.svg" alt="Pencil">
+                            Trip<br>Planner
+                        </li> 
+                    </a>
+                    <a href="#">
+                            <li>
+                            <img src="images/Bag.svg" alt="Bag">
+                            Packing List 
+                        </li>
+                    </a>
+                    <a href="profile.html">
+                            <li>
+                            <img src="images/account.png" alt="profile">
+                            Profile
+                        </li>
+                    </a>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="centerpanel" style="max-height: none;">
+            <div class="centerhead">
+                <div class="greeting">
+                    <h2>Hello, Mokshagna!</h2>
+                    <p>Welcome back and explore the world</p>
+                </div>
+                <div class="search">
+                    <img src="images/Search.svg" alt="Search">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="notifi">
+                    <img src="images/Notifi.svg" alt="Notification">
+                </div>
+            </div>
+            <div class="createMS">
+                <h2>Create Trip</h2>
+                <input type="text" name="Mtitle" id="Mtitle" placeholder="Title of Trip" required>
+                <div class="schdp">
+                    <p>for profile picture</p>
+                    <input type="file" name="image" id="imge">
+                </div>
+                <div class="destdetails">
+                    <input type="text" name="from" id="From" placeholder="From">
+                    <img src="/images/switch.png" alt="">
+                    <input type="text" name="destination" id="Destination" placeholder="Destination">
+                    <div class="destdate">
+                        <p>Start Date : </p>
+                        <input type="date" name="Start" id="Start">
+                        <img src="/images/switch.png" alt="" id="">
+                        <p>End Date : </p>
+                        <input type="date" name="End" id="End">
+                    </div>
+                </div>
+                <button type="submit">Plan My Trip</button>
+            </div>
+            <!-- <div class="MStiles">
+                <h2>My Schedules</h2>
+                <div class="mstile">
+                    <div class="timg" style="background-image: url(https://images.unsplash.com/photo-1473167052083-3d31fa1f6776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=737&q=80);"></div>
+                    <div class="mstiledetails">
+                        <h3>Title</h3>
+                        <div class="date">
+                            <img src="images/Calender.svg" alt="Calender">
+                            <p>00-00-0000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mstile">
+                    <div class="timg" style="background-image: url(https://images.unsplash.com/photo-1577889933775-33b8571874c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);"></div>
+                    <div class="mstiledetails">
+                        <h3>Title</h3>
+                        <div class="date">
+                            <img src="images/Calender.svg" alt="Calender">
+                            <p>00-00-0000</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="ad">
+                <a href="#">
+                    <img src="images/ad.png" alt="ad">
+                </a>
+            </div>
+        </div>
+        <div class="rightpanel">
+            <div class="account">
+                <img src="images/DP.png" alt="Display Picture">
+                <div class="names">
+                    <h3>Mokshagna</h3>
+                    <p>@moksha_uchiha</p>
+                </div>
+                <a href="#"><img src="images/Arrow.svg" alt="arrow"></a>
+            </div>
+            <div class="rightbody">
+                <div class="MStiles">
+                    <h4>My Schedules</h4>
+                    <div class="mstile">
+                        <div class="timg" style="background-image: url(https://images.unsplash.com/photo-1473167052083-3d31fa1f6776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=737&q=80);"></div>
+                        <div class="mstiledetails">
+                            <h3>Title</h3>
+                            <div class="date">
+                                <img src="images/Calender.svg" alt="Calender">
+                                <p>00-00-0000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mstile">
+                        <div class="timg" style="background-image: url(https://images.unsplash.com/photo-1577889933775-33b8571874c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);"></div>
+                        <div class="mstiledetails">
+                            <h3>Title</h3>
+                            <div class="date">
+                                <img src="images/Calender.svg" alt="Calender">
+                                <p>00-00-0000</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <a href="#"><p>Show All</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="bimg1" src="images/Ellipse.png" alt="ellipse">
+    <div class="foot">
+        <img src="images/LogoWhite.png" alt="logo">
+            <div class="footabout">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet at facilis itaque ratione quia provident nisi unde eum sunt dolore, qui labore ex nobis molestiae, ipsa iure odit enim repellat nemo quod quis nesciunt. Perferendis obcaecati atque officiis eaque omnis provident quas dolores magni similique sequi doloremque fugiat nobis, exercitationem, consectetur ullam assumenda quod illum magnam sapiente, asperiores non sed.</p>
+                <p>+91 000000000</p>
+                <p>dummy@gmail.com</p>
+
+                <img src="images/facebook.png" alt="facebook">
+                <img src="images/instagram.png" alt="instagram">
+                <img src="images/youtube.png" alt="youtube">
+                <img src="images/twitter.png" alt="twitter">
+            </div>
+    </div>
+</body>
+</html>

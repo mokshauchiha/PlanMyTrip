@@ -1,0 +1,112 @@
+/* .centerpanel .MStiles {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.mstile .timg{
+    height: 116px;
+    width: 137px;
+}
+.mstiledetails img{
+    height: 19px;
+}
+.mstiledetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mstile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: var(--secondary);
+    border-radius: 20px;
+    padding: 9px;
+    justify-content: flex-start;
+    width: max-content;
+}
+.date{
+    align-items: center;
+} */
+.centerpanel .createMS{
+    display: flex;
+    padding: 9px;
+    flex-direction: column;
+    align-items: stretch;
+}
+.createMS #Mtitle{
+    background: #e8f5ff;
+    padding: 6px;
+    margin: 9px 0px;
+    border: none;
+    border-radius: 12px;
+    color: #090a18;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.createMS input{
+    background-color: #090a18;
+    color: #e8f5ff;
+    border-radius: 9px;
+    padding: 9px;
+    border: 1px solid rgb(232 245 255 / 42%);
+}
+.createMS button{
+    padding: 9px 16px;
+    margin: 9px 0px;
+    border-radius: 11px;
+    background-color: #090a18;
+    border: 1px solid #34a7ff;
+    color: #34a7ff;
+    cursor: pointer;
+}
+.createMS .schdp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+.createMS .destdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin: 9px 0px;
+    position: relative;
+}
+.createMS .destdetails input{
+    text-align: center;
+    color-scheme: dark;
+}
+.createMS .destdetails .destdate{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.createMS .destdetails .destdate img{
+    background-color: #e8f5ff;
+        border-radius: 100%;
+        height: 21px;
+        padding: 4px;
+        border: 1px solid #090a18;
+        position: unset;
+    rotate: none;
+}
+.createMS .destdetails img{
+    width: 21px;
+    background-color: #e8f5ff;
+    position: absolute;
+    right: 32px;
+    top: 24px;
+    border-radius: 100%;
+    padding: 5px;
+    rotate: 90deg;
+}
+.Body .leftpanel{
+    margin-bottom: 32px;
+}
+.Body .centerpanel{
+    height: fit-content;
+}

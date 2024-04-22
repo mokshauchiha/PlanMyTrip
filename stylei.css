@@ -1,0 +1,88 @@
+.todolsit, .ticket-upload{
+    padding: 9px;
+}
+.todolist h1{
+    color: #e8f5ff;
+}
+.todolist #itinerary .itedet ul{
+    list-style: none;
+    color: #34a7ff;
+}
+#itinerary ul li{
+    padding: 4px 0px;
+}
+.todolist .addform form input[type=text]{
+    background-color: #e8f5ff;
+    padding: 7px;
+    border: none;
+    border-radius: 12px 12px 0px 0px;
+    color: #090a18;
+    text-align: center;
+}
+.todolist .addform form input{
+    background-color: #090a18;
+        padding: 8px;
+        border: 1px solid rgb(255 255 255 / 43%);
+        border-radius: 0px 0px 12px 12px;
+        color: #e8f5ff;
+}
+.todolist .addform{
+    margin: 9px 0px;
+}
+.todolist .plannings ul{
+    list-style: decimal;
+    color: #e8f5ff;
+}
+.todolist .plannings ul li{
+    border-bottom: 1px solid #e8f5ff;
+    padding: 4px;
+}
+.todolist .plannings ul li form{
+    margin: 6px 0px;
+}
+.todolist .plannings ul form button{
+    padding: 4px 8px;
+    color: #34a7ff;
+    background-color: #090a18;
+    border: 1px solid rgb(255 255 255 / 43%);
+    border-radius: 7px;
+    margin: 9px 0px;
+}
+.todolist .plannings #Save{
+    padding: 7px 24px;
+    color: #090a18;
+    background-color: #e8f5ff;
+    border: 1px solid #090a18;
+    border-radius: 7px;
+    margin: 12px 0px;
+    font-weight: 600;
+}
+
+.ticket-upload input{
+    padding: 9px 16px;
+    margin: 9px 0px;
+    border-radius: 11px;
+    background-color: #090a18;
+    border: 1px solid #34a7ff;
+    color: #34a7ff;
+    cursor: pointer;
+}
+
+.ticket-upload label{
+    color: #e8f5ff;
+}
+.ticket-upload a{
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 29px;
+    border-radius: 14px;
+    background-color: #090a18;
+    border: 1px solid #34a7ff;
+    color: #e8f5ff;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 9px;
+}
+.ticket-upload a img{
+    width: 52px;
+}
