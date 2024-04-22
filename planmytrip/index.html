@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlanMyTrip - Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1 {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ffffff;
+        }
+        
+        .options {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .admin-option,
+        .passenger-option {
+            text-align: center;
+        }
+        
+        .admin-option h2,
+        .passenger-option h2 {
+            margin-bottom: 10px;
+        }
+        
+        .admin-option p,
+        .passenger-option p {
+            margin-bottom: 20px;
+        }
+        
+        a {
+            display: block;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #0066ff;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        
+        a:hover {
+            background-color: #0052cc;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">PlanMyTrip</h1>
+    <div class="container">
+        <h1>Welcome to PlanMyTrip</h1>
+        <div class="options">
+            <div class="admin-option">
+                <h2>Admin</h2>
+                <p>Login to manage flights and bookings.</p>
+                <a href="admin_login.php">Admin Login</a>
+            </div>
+            <div class="passenger-option">
+                <h2>Passenger</h2>
+                <p>Login to search, book, and manage flights.</p>
+                <a href="passenger_login.php">Passenger Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
